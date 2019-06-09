@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Designe</title>
+    <link rel="stylesheet" href="css/style.css">
+</head> 
+<body> 
+    <div class="tabs">
+        <ul class="main-menu">
+            <li class="menu-tabs"><a href="#">SLIDER</a></li>
+            <li class="menu-tabs"><a href="#">TIME</a></li>
+            <li class="menu-tabs"><a href="#">CALCULATOR</a></li>
+        </ul>
+        <div class="tabs__content active">
+            <div class="sl">
+              <div class="fotorama"
+              >
+              <img src="img/w1.jpg" data-caption="Нет предназначения">
+              <img src="img/w2.jpg" data-caption="Оно не существует">
+              <img src="img/w3.jpg" data-caption="Единственное">
+              <img src="img/w4.jpg" data-caption="Что предназначено всем">
+              <img src="img/w5.jpg" data-caption="Это смерть.">
+
+            </div>
+          </div>
+      </div>
+      <div class="tabs__content">
+        <div class="background">
+          <h1 class="title">Наведи на часы</h1>
+
+          <section class="clock">
+            <div class="dot"></div>
+            <div class="spire hour"></div>
+            <div class="spire min"></div>
+            <div class="spire sec"></div>
+          </section>
+
+          <div class="digit">00:00</div>
+        </div>
+
+      </div>
+      <div class="tabs__content">
+       <h1>Посчитай что-нибудь!</h1>
+       <p class="warning">Что не можешь ты, сможет он...</p>
+
+       <div id="calculator" class="calculator">
+
+          <button id="clear" class="num clear">C</button>
+
+          <div id="viewer" class="viewer">0</div>
+
+          <button class="num" data-num="7">7</button>
+          <button class="num" data-num="8">8</button>
+          <button class="num" data-num="9">9</button>
+          <button data-ops="plus" class="num ops">+</button>
+
+          <button class="num" data-num="4">4</button>
+          <button class="num" data-num="5">5</button>
+          <button class="num" data-num="6">6</button>
+          <button data-ops="minus" class="num ops">-</button>
+
+          <button class="num" data-num="1">1</button>
+          <button class="num" data-num="2">2</button>
+          <button class="num" data-num="3">3</button>
+          <button data-ops="times" class="num ops">*</button>
+
+          <button class="num" data-num="0">0</button>
+          <button class="num" data-num=".">.</button>
+          <button id="equals" class="num equals" data-result="">=</button>
+          <button data-ops="divided by" class="num ops">/</button>
+      </div>
+
+      <button id="reset" class="num reset">Reset Universe?</button>
+  </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+<script src="slick/slick.min.js"></script>
+<script src="js/tabs.js"></script> 
+<script src="js/clock.js"></script>  
+<script src="js/calc.js"></script>
+<script src="js/slider.js"></script>  
+</body>
+</html>

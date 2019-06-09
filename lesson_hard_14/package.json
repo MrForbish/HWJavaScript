@@ -1,0 +1,24 @@
+{
+  "name": "yoga",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrForbish/HWJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrForbish/HWJS/issues"
+  },
+  "homepage": "https://github.com/MrForbish/HWJS#readme",
+  "dependencies": {
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8"
+  }
+}

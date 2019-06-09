@@ -1,0 +1,63 @@
+@font-face{
+
+font-family: 'GothaProBla';
+
+src: url('../src/fonts/GothaProBla.otf');
+src: url('../src/fonts/GothaProMed.otf');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+button:hover {
+  cursor: pointer;
+
+} 
+.bEiQdu:hover {
+  color: #4198ea;
+}
+.sc-VigVT:hover {
+  background-color: #efc402;
+}
+.gcoZob:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.sc-kGXeez:hover {
+   background-color: #efc402;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
