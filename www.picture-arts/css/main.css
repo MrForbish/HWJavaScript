@@ -656,6 +656,7 @@ h4 {
 .portfolio-wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .portfolio-block {
   width: 20%;
@@ -922,6 +923,7 @@ h4 {
   margin-top: 6rem;
   background-color: #f7e7e6;
   padding: 3rem 4rem;
+  display: none;
 }
 .often-questions .accordion-block:before {
   content: '';

@@ -6,6 +6,8 @@ window.addEventListener('DOMContentLoaded', function() {
 	let ajax = require('../parts/ajax.js');
 	let numMask = require('../parts/numMask.js');
 	let sliderReviews = require('../parts/sliderReviews');
+	let checkPicture = require('../parts/checkPicture');
+	let accordeonQuestions = require('../parts/accordeonQuestions');
 
 	modal();
 	moreStyles();
@@ -13,5 +15,7 @@ window.addEventListener('DOMContentLoaded', function() {
 	ajax();
 	numMask();
 	sliderReviews();
+	checkPicture();
+	accordeonQuestions();
 
 });
