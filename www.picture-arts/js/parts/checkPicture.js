@@ -14,22 +14,22 @@ function checkPicture() {
       });  
       
       $('#chef').click(function() {
-        $('.chef').show(1500);
+        $('.chef').show(1000);
       });
       $('#girl').click(function() {
-        $('.girl').show(1500);
+        $('.girl').show(1000);
       });
       $('#guy').click(function() {
-        $('.guy').show(1500);
+        $('.guy').show(1000);
       });
       $('#grandmother').click(function() {
-        $('.grandmother').show(1500);
+        $('.grandmother').show(1000);
       });
       $('#granddad').click(function() {
-        $('.granddad').show(1500);
+        $('.granddad').show(1000);
       });
       $('#lovers').click(function() {
-        $('.lovers').show(1500);
+        $('.lovers').show(1000);
       });
 
     });
